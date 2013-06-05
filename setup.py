@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='django-grains',
-      version='0.1',
+      version='0.1.1',
       description=('Define content fragments in Django templates '
                    'and store their contents in the database. '
                    'This is yet another take '
@@ -11,7 +11,7 @@ setup(name='django-grains',
       author='Antti Kaihola (2General Ltd.)',
       author_email='antti@2general.com',
       url='http://github.com/2general/django-grains',
-      packages=['grains'],
+      packages=['grains', 'grains.templatetags'],
       classifiers=['Development Status :: 4 - Beta',
                    'Framework :: Django',
                    'Intended Audience :: Developers',
