@@ -37,7 +37,12 @@ which could be used to choose the editor widget for the value
 in Django's admin interface.
 The second argument can be omitted in which case it defaults to ``text/plain``.
 
+A WYSIWYG editor is automatically used in the admin interface
+for grains with the ``text/html`` content type,
+if you have django-wysiwyg_ installed and added to ``INSTALLED_APPS``.
+
 .. _django-chunks: https://github.com/clintecker/django-chunks
 .. _django-flatblocks: https://github.com/zerok/django-flatblocks
 .. _django-tinycontent: https://github.com/dominicrodger/django-tinycontent
 .. _others: https://www.djangopackages.com/grids/g/layout/
+.. _django-wysiwyg: https://github.com/pydanny/django-wysiwyg
