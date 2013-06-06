@@ -1,0 +1,7 @@
+.grp-changelist-results tbody tr td:nth-child(3) {
+    cursor: pointer;
+}
+
+.grp-changelist-results tbody tr td:nth-child(3):hover {
+    color: #309bbf;
+}
