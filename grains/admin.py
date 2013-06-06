@@ -7,6 +7,8 @@ class GrainAdmin(admin.ModelAdmin):
     model = Grain
     list_display = 'key', 'value'
     fields = 'value',
+    search_fields = 'key', 'value'
+    ordering = 'key',
 
     def render_change_form(self, request, context,
                            add=False, change=False, form_url='', obj=None):
